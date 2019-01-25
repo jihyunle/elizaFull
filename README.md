@@ -37,4 +37,4 @@ The user enters something at the prompt: "my teacher hates me"
 
 The program will loop through that string and replace "my" with "your" and "me" with "you" and then prepend the qualifier to the replacement string. So, my teacher hates me becomes "Why do you say that your teacher hates you?" The replacement method returns the same words as the user entered only the replacement words have been swapped. Then the qualifier is prepended to the user's words.
 
-Spend some time thinking how you would search through a string and replacing specific words. *Hint*: read about the [split] (https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#split(java.lang.String))Links to an external site.operator.
+Spend some time thinking how you would search through a string and replacing specific words. *Hint*: read about the [split](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#split(java.lang.String)) operator.
