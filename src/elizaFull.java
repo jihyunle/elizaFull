@@ -17,10 +17,10 @@ public class elizaFull {
         System.out.println("Good day. How are you doing today?");
 
         String userInput = " ";
-        boolean userQuit;
+        boolean userQuit = false;
         String elizaSays = " ";
 
-        do {
+        while(!userQuit){
             System.out.println("Enter your response here, or press Q to quit.");
             userInput = input.nextLine();
 
@@ -44,8 +44,7 @@ public class elizaFull {
 
             System.out.println(elizaSays);
             System.out.println();
-
-        }while (!userQuit);
+        }
 
         System.out.println(">>> END");
         input.close();
@@ -115,6 +114,7 @@ public class elizaFull {
         boolean quit = false;
         if (str.equalsIgnoreCase("Q") || str.contains("i am feeling great")){
             quit = true;
+//            System.exit(0);
         }
         return quit;
     }
