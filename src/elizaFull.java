@@ -25,7 +25,9 @@ public class elizaFull {
             userInput = input.nextLine();
 
             // Check if user wants to quit
-            userQuit = checkQuitCommand(userInput);
+            if(userQuit = checkQuitCommand(userInput)){
+                break;
+            }
 
             System.out.println();
 
